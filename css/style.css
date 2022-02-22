@@ -88,7 +88,7 @@ section.cover-form{
 }
 
 .form-wraper:not(:first-child){
-    margin-top: 20px;
+    margin-top: 40px;
 }
 
 .form-wraper:last-child{
@@ -162,4 +162,37 @@ section.chamada p{
     display: flex;
 }
 
+.item-1-mosaico{
+    background-position: center;
+    background-size: cover;
+    width: 60%;
+}
+
+.item-2-mosaico{
+    background-color: #4683ab;
+    padding: 90px 40px;
+    width: 40%;
+}
+
+.item-2-mosaico p{
+    color: white;
+}
+
+footer .container{
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(220, 220,220);
+}
+
+footer img{
+    width: 130px;
+}
+
+@media screen and (max-width:1024px){
+    .bg{
+        height: auto;
+        padding: 80px 0;
+        text-align: center;
+    }
+}
 
